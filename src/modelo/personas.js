@@ -1,1 +1,0 @@
-export const personas = ["Ash", "Misty", "Brook", "Oak"]

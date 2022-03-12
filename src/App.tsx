@@ -4,9 +4,8 @@ import {personas} from "./modelo/personas";
 import {quienEsMayor} from "./utiles/utiles";
 
 function App() {
-  // Las constantes edades, personas, y la funcion quienEsMayor no se encuentran tipificadas
-  // No te olvides de renombrar los archivos para soportar los tipos
-  const edades = [15, 16, 23, 16]
+  // Tipificamos el array de numeros
+  const edades:number[] = [15, 16, 23, 16]
 
   return (
     <div className="App">

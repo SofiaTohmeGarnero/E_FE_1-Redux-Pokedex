@@ -1,7 +1,22 @@
 {
   "name": "ctd-esp-fe1-clase13-typescript-base",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Frontend IV: Clase 13: Typescript - Mesa de Trabajo",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DH-Esp-Frontend/ctd-esp-fe1-clase13-typescript-base.git"
+  },
+  "keywords": [
+    "Frontend",
+    "IV",
+    "CTD",
+    "Mesa",
+    "de",
+    "Trabajo"
+  ],
+  "author": "Tomas de Priede",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",

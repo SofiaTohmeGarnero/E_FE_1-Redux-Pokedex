@@ -1,0 +1,45 @@
+body {
+    background-color: whitesmoke;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#bandejaDeEntrada {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: wheat;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#listadoMensajes {
+    width: 35%;
+    flex-direction: column;
+    overflow-y: scroll;
+    border-right: 2px solid lightgrey;
+    align-items: flex-start;
+    text-align: left;
+}
+
+#listadoMensajes div {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+#listadoMensajes div:hover {
+    cursor: pointer;
+    background-color: lightpink;
+    border-radius: 12px;
+}
+
+#vistaMensaje {
+    width: 65%;
+    text-align: left;
+    padding: 1rem;
+}

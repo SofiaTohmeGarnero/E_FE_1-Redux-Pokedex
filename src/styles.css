@@ -17,7 +17,7 @@ body {
     margin-right: auto;
 }
 
-#listadoMensajes {
+#listadoCategorias {
     width: 35%;
     flex-direction: column;
     overflow-y: scroll;
@@ -26,19 +26,19 @@ body {
     text-align: left;
 }
 
-#listadoMensajes div {
+#listadoCategorias div {
     cursor: pointer;
     padding: 0.5rem 1rem;
     border-bottom: 1px solid lightgrey;
 }
 
-#listadoMensajes div:hover {
+#listadoCategorias div:hover {
     cursor: pointer;
     background-color: lightpink;
     border-radius: 12px;
 }
 
-#vistaMensaje {
+#vistaCategoria {
     width: 65%;
     text-align: left;
     padding: 1rem;

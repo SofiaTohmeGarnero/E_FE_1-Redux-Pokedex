@@ -1,13 +1,16 @@
 // Esta data simula la información que puede venir, por ejemplo, de una api
 // Vamos a tener que tipar tanto el array de mensajes, como los objetos que podemos encontrar dentro
 
-export const mensajes = [
+import {Mensaje} from "../types/message";
+import {PersonaType} from "../types/persona";
+
+export const mensajes: Mensaje[] = [
     {
         id: 1,
         remitente: {
           nombre: 'Misty',
           apellido: 'Williams',
-          type: 'ENTRENADOR',
+          type: PersonaType.ENTRENADOR,
           ciudadDeNacimiento: {
             ciudad: 'Ciudad Celeste',
             region: 'Kanto',
@@ -24,7 +27,7 @@ export const mensajes = [
         remitente: {
             nombre: 'Brock',
             apellido: 'Williams',
-            type: 'ENTRENADOR',
+            type: PersonaType.ENTRENADOR,
             ciudadDeNacimiento: {
                 ciudad: 'Ciudad Plateada',
                 region: 'Kanto',
@@ -41,7 +44,7 @@ export const mensajes = [
         remitente: {
             nombre: 'Tracey',
             apellido: 'Sketchit',
-            type: 'AYUDANTE',
+            type: PersonaType.AYUDANTE,
             ciudadDeNacimiento: {
                 ciudad: 'Pueblo Paleta',
                 region: 'Kanto',
@@ -58,7 +61,7 @@ export const mensajes = [
         remitente: {
             nombre: 'Profesor',
             apellido: 'Oak',
-            type: 'PROFESOR',
+            type: PersonaType.PROFESOR,
             ciudadDeNacimiento: {
                 ciudad: 'Pueblo Paleta',
                 region: 'Kanto',

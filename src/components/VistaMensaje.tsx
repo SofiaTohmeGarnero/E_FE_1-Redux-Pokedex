@@ -1,10 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {Mensaje} from "../types/message";
 
-// Debemos tipar las props de nuestro componente
-// Quiza podemos utilizar la interfaz ya creada en mensajes ?
+// Creamos una interfaz para tipar nuestras props del componente
+interface VistaMensajeProps {
+    mensaje?: Mensaje // Prestar atencion en el ? que nos permite utilzar el undefined
+}
 
-const VistaMensaje = ({ mensaje }) =>
+const VistaMensaje = ({ mensaje }: VistaMensajeProps) =>
     mensaje ? (
         <div id="vistaMensaje">
             <h3 className="titulo">{mensaje.asunto}</h3>
@@ -15,6 +18,7 @@ const VistaMensaje = ({ mensaje }) =>
         </div>
     ) : null;
 
+// Seguimos utilizando la validación de prop types
 VistaMensaje.propTypes = {
     mensaje: PropTypes.shape({
         asunto: PropTypes.string.isRequired,

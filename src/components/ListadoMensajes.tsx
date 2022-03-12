@@ -1,10 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {Mensaje} from "../types/message";
 
-// Debemos tipar las props de nuestro componente
-// Quiza podemos utilizar la interfaz ya creada en mensajes ?
+// Creamos una interfaz para tipar nuestras props del componente
+interface ListadoMensajesProps {
+    mensajes: Mensaje[],
+    seleccionarMensaje: (id: number) => void
+}
 
-const ListadoMensajes = ({ mensajes = [], seleccionarMensaje }) => (
+const ListadoMensajes = ({ mensajes = [], seleccionarMensaje }: ListadoMensajesProps) => (
     <div id="listadoMensajes">
         {mensajes.map((mensaje) => (
             <div onClick={() => seleccionarMensaje(mensaje.id)} key={mensaje.id}>
@@ -16,6 +20,7 @@ const ListadoMensajes = ({ mensajes = [], seleccionarMensaje }) => (
     </div>
 );
 
+// Seguimos utilizando la validación de prop types
 ListadoMensajes.propTypes = {
     mensajes: PropTypes.arrayOf(
         PropTypes.shape({

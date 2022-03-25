@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff8132ae-002f-454b-8406-b80ac8633fe5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ListadoPokemons.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/pokemon.services.ts" afterDir="false" />
+    <list default="true" id="ff8132ae-002f-454b-8406-b80ac8633fe5" name="Changes" comment="Base inicial para clase 16 (faltan comments)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListadoCategorias.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BuscarPokemon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListadoCategoriasItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListadoPokemonsItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListadoItems.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VistaCategoria.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VistaItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VistaPokemon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/ContextoCategorias.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queries/items.queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/queries/pokemon.queries.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/category.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/pokemon.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/sprite.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/sprite.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BuscarPokemon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BuscarPokemon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VistaPokemon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VistaPokemon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queries/pokemon.queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/queries/pokemon.queries.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +36,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/types" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -92,8 +83,16 @@
       <updated>1647097922655</updated>
       <workItem from="1647097923907" duration="1454000" />
       <workItem from="1648209462782" duration="17000" />
-      <workItem from="1648209481439" duration="4784000" />
+      <workItem from="1648209481439" duration="5166000" />
     </task>
+    <task id="LOCAL-00001" summary="Base inicial para clase 16 (faltan comments)">
+      <created>1648229003912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648229003912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Base inicial para clase 16 (faltan comments)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base inicial para clase 16 (faltan comments)" />
   </component>
 </project>

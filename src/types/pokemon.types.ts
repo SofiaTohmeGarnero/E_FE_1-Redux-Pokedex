@@ -13,5 +13,5 @@ export interface Pokemon {
 
 export interface PokemonWithProps extends Pokemon{
     id: number;
-    sprites: Sprite[]
+    sprites: Sprite
 }

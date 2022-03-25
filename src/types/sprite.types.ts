@@ -7,4 +7,9 @@
  */
 export interface Sprite {
     "default": string;
+    other: {
+        home: {
+            front_default: string;
+        };
+    }
 }

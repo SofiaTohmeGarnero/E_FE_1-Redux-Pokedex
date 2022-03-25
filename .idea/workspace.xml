@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff8132ae-002f-454b-8406-b80ac8633fe5" name="Changes" comment="" />
+    <list default="true" id="ff8132ae-002f-454b-8406-b80ac8633fe5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ListadoPokemons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/pokemon.services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListadoCategorias.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BuscarPokemon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListadoCategoriasItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListadoPokemonsItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListadoItems.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VistaCategoria.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VistaItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VistaPokemon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/ContextoCategorias.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queries/items.queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/queries/pokemon.queries.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/category.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/pokemon.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/sprite.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/sprite.types.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -26,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/types" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -34,9 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/types" />
+      <recent name="$PROJECT_DIR$/src/queries" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -68,6 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1647097922655</updated>
       <workItem from="1647097923907" duration="1454000" />
+      <workItem from="1648209462782" duration="17000" />
+      <workItem from="1648209481439" duration="4784000" />
     </task>
     <servers />
   </component>

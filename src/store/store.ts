@@ -1,8 +1,10 @@
 import {combineReducers} from "@reduxjs/toolkit";
 import { createStore, compose } from 'redux';
+import  PokemonReducer from '../reducers/PokemonReducer';
 
 const rootReducer = combineReducers({
     // TODO add your reducer here
+    pokemones: PokemonReducer
 });
 
 // Definimos un tipo para nuestra store o estado global

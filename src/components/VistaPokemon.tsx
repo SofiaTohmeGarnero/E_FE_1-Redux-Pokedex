@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import {PokemonWithProps} from "../types/pokemon.types";
 import {Sprite} from "../types/sprite.types";
+import { useSelector } from "react-redux";
+import { PokemonState } from '../reducers/PokemonReducer';
+import { getPokemon } from "../queries/pokemon.queries";
+import { useQuery } from "react-query";
 
 const charmander: PokemonWithProps = {
     id: 4,
@@ -14,27 +18,34 @@ const charmander: PokemonWithProps = {
 
 }
 
-const VistaPokemon = () => {
 
+const VistaPokemon = ({nombrePokemon}:any) => { //todo: tipar bien
+    const {data: pokemon, isSuccess, refetch} = useQuery("getPokemon", () => getPokemon(nombrePokemon));
+
+    useEffect(()=>{
+        refetch()
+    },[nombrePokemon])
+    
     // Obtener el pokemon seleccionado de redux utililando el hook selector y luego utilizar
     // la api que retorna la informacion de este pokemon.
     // Ah no olvides aprovechar una herramienta como React Query para facilitar el acceso!
 
-    return charmander ? (
-        <div className="vistaPokemon">
-            <h4>Pokemon: {charmander.name}</h4>
-            <h5>#{charmander.id}</h5>
-            <img src={charmander.sprites.other.home.front_default} />
-        </div>
-    ): null;
+    return (
+        isSuccess ? (
+            <div className="vistaPokemon">
+                <h4>Pokemon: {pokemon?.name}</h4>
+                <h5>#{pokemon?.id}</h5>
+                <img src={pokemon?.sprites.other.home.front_default} />
+            </div>
+        ) : (
+            null            
+        )
+        
+    )
 }
 
 VistaPokemon.propTypes = {
-    item:
-        PropTypes.shape({
-            name: PropTypes.string.isRequired,
-            url: PropTypes.string.isRequired,
-        })
+    nombrePokemon: PropTypes.any
 };
 
 export default VistaPokemon;
